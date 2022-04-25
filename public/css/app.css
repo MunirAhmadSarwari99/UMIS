@@ -1,0 +1,12 @@
+.title-card-head {
+    margin-left: 1em;
+    font-size: 20px;
+}
+@media print {
+    #header{display: none;}
+    #search-bar{display: none;}
+    .setting{display: none;}
+    .tools .btn-group{display: none;}
+}
+.delete_form{display: inline-block;}
+.delete_user{display: inline-block;}
